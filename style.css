@@ -17,7 +17,7 @@
         justify-content: space-between;
     }
         header h1{
-            font-family: 'Comic Sans'; 
+            font-family: "Comic Sans MS", cursive, sans-serif;	 
             padding: 5px;
             display: inline-block;  
         }
@@ -38,7 +38,6 @@
     div.aboutme{
         display: flex; 
         justify-content: space-between;
-        align-items: flex-start;
     }
 
         div.aboutme img.headshot{
@@ -62,13 +61,16 @@
     }
 
             div.bio p{
-                padding: 3px 10px; 
+                padding: 3px 10px;
+                margin: 10px; 
             }
 
             div.bio a{
                 color: black; 
                 padding: 5px 10px; 
                 line-height: 25px;
+                margin: 12px; 
+             
             }
     div.work{
         display: flex; 
